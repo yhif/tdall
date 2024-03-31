@@ -1001,6 +1001,102 @@
                     </div>
                 </div>
             </button>
+            <button
+                class="outline-base-content overflow-hidden rounded-lg text-left"
+                x-bind:class="{ '[&_svg]:visible': userTheme === 'dim' }"
+                x-on:click="userTheme = 'dim'"
+            >
+                <div
+                    class="bg-base-100 text-base-content w-full cursor-pointer font-sans"
+                    data-theme="dim"
+                >
+                    <div class="grid grid-cols-5 grid-rows-3">
+                        <div class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
+                            <svg
+                                class="invisible h-3 w-3"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                            >
+                                <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
+                            </svg>
+                            <div class="flex-grow text-sm font-bold">dim</div>
+                            <div class="flex h-full flex-shrink-0 flex-wrap gap-1">
+                                <div class="bg-primary w-2 rounded"></div>
+                                <div class="bg-secondary w-2 rounded"></div>
+                                <div class="bg-accent w-2 rounded"></div>
+                                <div class="bg-neutral w-2 rounded"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </button>
+            <button
+                class="outline-base-content overflow-hidden rounded-lg text-left"
+                x-bind:class="{ '[&_svg]:visible': userTheme === 'nord' }"
+                x-on:click="userTheme = 'nord'"
+            >
+                <div
+                    class="bg-base-100 text-base-content w-full cursor-pointer font-sans"
+                    data-theme="nord"
+                >
+                    <div class="grid grid-cols-5 grid-rows-3">
+                        <div class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
+                            <svg
+                                class="invisible h-3 w-3"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                            >
+                                <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
+                            </svg>
+                            <div class="flex-grow text-sm font-bold">nord</div>
+                            <div class="flex h-full flex-shrink-0 flex-wrap gap-1">
+                                <div class="bg-primary w-2 rounded"></div>
+                                <div class="bg-secondary w-2 rounded"></div>
+                                <div class="bg-accent w-2 rounded"></div>
+                                <div class="bg-neutral w-2 rounded"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </button>
+            <button
+                class="outline-base-content overflow-hidden rounded-lg text-left"
+                x-bind:class="{ '[&_svg]:visible': userTheme === 'sunset' }"
+                x-on:click="userTheme = 'sunset'"
+            >
+                <div
+                    class="bg-base-100 text-base-content w-full cursor-pointer font-sans"
+                    data-theme="sunset"
+                >
+                    <div class="grid grid-cols-5 grid-rows-3">
+                        <div class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
+                            <svg
+                                class="invisible h-3 w-3"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                            >
+                                <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
+                            </svg>
+                            <div class="flex-grow text-sm font-bold">sunset</div>
+                            <div class="flex h-full flex-shrink-0 flex-wrap gap-1">
+                                <div class="bg-primary w-2 rounded"></div>
+                                <div class="bg-secondary w-2 rounded"></div>
+                                <div class="bg-accent w-2 rounded"></div>
+                                <div class="bg-neutral w-2 rounded"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </button>
         </div>
     </div>
 </div>
