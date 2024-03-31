@@ -86,6 +86,10 @@ class AppServiceProvider extends ServiceProvider
 
 -   [YHIF](https://github.com/yhif)
 
+### The original [better-futures-studio/dall](https://github.com/better-futures-studio/dall) package credits:
+
+-   [Abdel Elrafa](https://github.com/AbdelElrafa)
+
 ### The original [laravel-frontend-presets/tall](https://github.com/laravel-frontend-presets/tall) package credits:
 
 -   [Dan Harrin](https://github.com/DanHarrin)
