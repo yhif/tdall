@@ -6,7 +6,7 @@ use Illuminate\Support\Arr;
 use Laravel\Ui\Presets\Preset;
 use Illuminate\Filesystem\Filesystem;
 
-class TDallPreset extends Preset
+class TdallPreset extends Preset
 {
     const NPM_PACKAGES_TO_ADD = [
 
